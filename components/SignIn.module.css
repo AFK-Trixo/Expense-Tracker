@@ -1,0 +1,28 @@
+/* SignIn.module.css */
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .background {
+    background: linear-gradient(45deg, #4a5568, #718096, #4a5568, #718096);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  .signInBox {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .googleButton {
+    transition: background-color 0.3s ease;
+  }
+  
